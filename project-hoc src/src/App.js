@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Counter from './component/Counter';
-
+import Home from './Components/Home'
+import Hoc from './Components/Hoc'
 function App() {
   return (
-    <>
-   <Counter/>
+   <>
+   <Home/>
+   <Hoc/>
    </>
   );
 }
