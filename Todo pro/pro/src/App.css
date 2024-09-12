@@ -1,0 +1,340 @@
+/* table{
+  height: initial;
+  width: 100%;
+  border: transparent;
+}
+thead{
+  border: 1px solid black;
+  background-color: rgba(46, 43, 43, 0.484);
+  height: 30px;
+  font-size: 20px;
+}
+th{
+  border: none;
+}
+tbody{
+  margin-top: 2px;
+}
+tr{
+  border-bottom: 1px solid rgb(0, 0, 0);
+  background-color: rgb(0, 255, 60);
+  border-bottom: 5px solid black;
+}
+td{
+  border: none;
+  padding: 5px 20px;
+}  */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  height: 100vh;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://i.pinimg.com/originals/e5/89/95/e5899572ecace2b0895b36db7703a001.gif);
+  background-repeat:no-repeat;
+  background-size: cover;
+  
+}
+.main{
+  height: 95%;
+  width: 95%;
+  backdrop-filter: blur(100%);
+  background-color: rgba(0, 0, 0, 0.57) ;
+  display: flex;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: rgb(0, 0, 0) 0px 22px 70px 4px;
+}
+.div1{
+  height: 100%;
+  width: 50%;
+  border: 1px solid transparent;
+}
+.divv1{
+  border: 1px solid transparent;
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divv1 img{
+  height: 100%;
+  filter: drop-shadow(15px 0px 3px #000000b8);
+}
+
+.divv2{
+  border: 1px solid transparent;
+  height: 40%;
+  width: 100%;
+}
+.divv2 .m {
+  text-align: center;
+}
+.divv2 .m h1{
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px rgb(255, 196, 0);
+}
+.divv2 .m input {
+  text-align: center;
+  height: 40px;
+  color: white;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.444);
+  border: transparent;
+  margin-block: 15px;
+  font-weight: bold;
+  font-size: medium;
+  border-radius: 50px;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+.divv2 .m input:focus{
+  text-align: center;
+  font-size: large;
+}
+.divv2 .m input::placeholder{
+  text-align: center;
+  word-spacing: 5px;
+  letter-spacing: 6px;
+}
+.div2{
+  height: 100%;
+  width: 50%;
+  border: 1px solid transparent;
+  
+}
+.div2 .scroll::-webkit-scrollbar{
+  display: none;
+}
+.div2 h1{
+  text-align: center;
+  border-bottom: 3px double ;
+}
+.div2 .scroll{
+  height: 100%;
+  overflow-y: scroll;
+  border: 1px solid transparent;
+}
+.data{
+  height: 70px;
+  width: 95%;
+  /* border: 1px solid black; */
+  margin-left:2.5%;
+  margin-top: 10px;
+  display: flex;
+  border-radius: 50px;
+  padding: 5px;
+  text-shadow: 1px 1px 5px rgb(0, 255, 38);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.133) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.237) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.259) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.data .d1{
+  /* border: 1px solid ; */
+  width: 40%;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.data .d2{
+  /* border: 1px solid ; */
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.data .d3{
+  border: 1px solid transparent ;
+  width: 20%;
+  display: flex;
+  justify-content:space-evenly;
+  align-items:end;
+  
+}
+
+/* button of add todo */
+
+
+.btn2 {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  border: 2px solid #fefefe;
+  text-transform: uppercase;
+  color: #fefefe;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.btn2::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% - -2px);
+  background-color: #212121;
+  transition: 0.3s ease-out;
+  transform: scaleY(1);
+}
+
+.btn2::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% - 50px);
+  background-color: #212121;
+  transition: 0.3s ease-out;
+  transform: scaleY(1);
+}
+
+.btn2:hover::before {
+  transform: translateY(-25px);
+  height: 0;
+}
+
+.btn2:hover::after {
+  transform: scaleX(0);
+  transition-delay: 0.15s;
+}
+
+.btn2:hover {
+  border: 2px solid #fefefe;
+}
+
+.btn2 span {
+  position: relative;
+  z-index: 3;
+}
+
+button {
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  margin-top: 25px;
+}
+
+/* edit */
+
+
+.editBtn {
+  width: 55px;
+  height: 55px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(93, 93, 116);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.123);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.editBtn::before {
+  content: "";
+  width: 200%;
+  height: 200%;
+  background-color: rgb(102, 102, 141);
+  position: absolute;
+  z-index: 1;
+  transform: scale(0);
+  transition: all 0.3s;
+  border-radius: 50%;
+  filter: blur(10px);
+}
+.editBtn:hover::before {
+  transform: scale(1);
+}
+.editBtn:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.336);
+}
+
+.editBtn svg {
+  height: 17px;
+  fill: white;
+  z-index: 3;
+  transition: all 0.2s;
+  transform-origin: bottom;
+}
+.editBtn:hover svg {
+  transform: rotate(-15deg) translateX(5px);
+}
+.editBtn::after {
+  content: "";
+  width: 25px;
+  height: 1.5px;
+  position: absolute;
+  bottom: 19px;
+  left: -5px;
+  background-color: white;
+  border-radius: 2px;
+  z-index: 2;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease-out;
+}
+.editBtn:hover::after {
+  transform: scaleX(1);
+  left: 0px;
+  transform-origin: right;
+}
+
+/* delete */
+
+/* From Uiverse.io by vinodjangid07 */ 
+.button {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: rgb(20, 20, 20);
+  border: none;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  position: relative;
+  gap: 2px;
+}
+
+.svgIcon {
+  width: 12px;
+  transition-duration: 0.3s;
+}
+
+.svgIcon path {
+  fill: white;
+}
+
+.button:hover {
+  transition-duration: 0.3s;
+  background-color: rgb(255, 69, 69);
+  align-items: center;
+  gap: 0;
+}
+
+.bin-top {
+  transform-origin: bottom right;
+}
+.button:hover .bin-top {
+  transition-duration: 0.5s;
+  transform: rotate(160deg);
+}
