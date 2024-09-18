@@ -1,0 +1,389 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.containerlogin{
+  height: 100vh;
+  width: 100vw;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(30,30,30);
+}
+.containerlogin .main{
+  height: 95%;
+  width: 95%;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  background-color: white;
+  display: flex;
+}
+.containerlogin .main .sub{
+  width: 50%;
+  height: 100%;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub .form{
+  height: 70%;
+  width: 70%;
+  border: 1px solid transparent;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.form h1{
+  font-size: 80px;
+}
+.form input{
+  width: 70%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  outline: none;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.form button{
+  width: 70%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #020202;
+  outline: none;
+  color: white;
+  margin-left: 40px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.form .login{
+  margin-top: 15px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.form .alt{
+  background-color: rgb(163,56,22);
+}
+.form .fa-user{
+  font-size: 20px;
+  padding: 10px;
+}
+.form .fa-lock{
+  font-size: 20px;
+  padding: 10px;
+}
+.form span{
+  font-weight: bold;
+}
+.form .other{
+  font-weight: lighter;
+}
+.form .loginother{
+  font-weight: bolder;
+  margin-block: 15px;
+  text-decoration: underline;
+}
+.containerlogin .main .sub2{
+  width: 50%;
+  height: 100%;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub2 .img{
+  height: 90%;
+  width: 90%;
+  border: 1px solid transparent ;
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sub2 .img img{
+  height: 100%;
+  width: 100%;
+}
+
+/* display-data */
+
+.contain{
+  height: 100vh;
+  width: 100vw;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(30,30,30);
+}
+.display{
+  height: 60%;
+  width: 70%;
+  border: 1px solid transparent;
+  display: flex;
+  border-radius: 30px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.571) 0px 4px 6px, rgba(255, 255, 255, 0.482) 0px 12px 13px, rgba(255, 255, 255, 0.499) 0px -3px 5px;
+}
+.display .data{
+  height: 100%;
+  width: 50%;
+  border: 1px solid grey;
+}
+.display .data .user{
+  height: 70%;
+  width: 100%;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.display .data .user .img{
+  height: 80%;
+  width: 50%;
+  border-radius: 100%;
+  border: 1px solid transparent ;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+.display .data .user .img img{
+  height: 100%;
+  width: 100%;
+
+}
+.display .data .userr{
+  height: 30%;
+  width: 100%;
+  text-align: center;
+  margin-top: 10%;
+  text-shadow: 1px 1px 5px red;
+}
+span{
+  font-weight: lighter;
+  text-shadow: none;
+}
+.name h2{
+  padding: 15px;
+  text-shadow: 1px 1px 5px red;
+}
+.name h1{
+  padding: 10px;
+  padding-left: 10%;
+}
+.signout{
+  padding: 5px;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+
+/* From Uiverse.io by doniaskima */ 
+.btn-12,
+.btn-12 *,
+.btn-12 :after,
+.btn-12 :before,
+.btn-12:after,
+.btn-12:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-12 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  margin-left: 35%;
+  margin-top: 10%;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.btn-12:disabled {
+  cursor: default;
+}
+
+.btn-12:-moz-focusring {
+  outline: auto;
+}
+
+.btn-12 svg {
+  display: block;
+  vertical-align: middle;
+}
+
+.btn-12 [hidden] {
+  display: none;
+}
+
+.btn-12 {
+  border-radius: 99rem;
+  border-width: 2px;
+  overflow: hidden;
+  padding: 0.8rem 3rem;
+  position: relative;
+}
+
+.btn-12 span {
+  mix-blend-mode: difference;
+}
+
+.btn-12:after,
+.btn-12:before {
+  background: linear-gradient(
+    90deg,
+    #fff 25%,
+    transparent 0,
+    transparent 50%,
+    #fff 0,
+    #fff 75%,
+    transparent 0
+  );
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: translateY(var(--progress, 100%));
+  transition: transform 0.2s ease;
+}
+
+.btn-12:after {
+  --progress: -100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0,
+    transparent 25%,
+    #fff 0,
+    #fff 50%,
+    transparent 0,
+    transparent 75%,
+    #fff 0
+  );
+  z-index: -1;
+}
+
+.btn-12:hover:after,
+.btn-12:hover:before {
+  --progress: 0;
+}
+
+/* From Uiverse.io by TreepDeep */ 
+.button.google {
+  max-width: 340px;
+  display: flex;
+  padding: 0.5rem 1.4rem;
+  font-size: 0.875rem;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid rgba(50, 50, 80, 0.25);
+  gap: 0.75rem;
+  color: #ffffff;
+  background-color: rgb(50, 50, 80);
+  cursor: pointer;
+  transition: all 0.6s ease;
+  text-decoration: none;
+  margin-left: 110px;
+}
+
+.button.google svg {
+  height: 24px;
+  width: 24px;
+  fill: #fff;
+  margin-right: 0.5rem;
+}
+
+.button.google:hover {
+  transform: scale(1.02);
+  background-color: rgb(90, 90, 120);
+  box-shadow: 0 2px 4px rgba(90, 90, 120, 0.1);
+}
+
+.button.google:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 0, 40, 0.3);
+}
+
+.button.google:active {
+  transform: scale(0.98);
+  opacity: 0.8;
+}
+
+@media (max-width: 480px) {
+  .button.google {
+    max-width: 100%;
+  }
+}
+
+/* From Uiverse.io by mahtabmurad24 */ 
+button.facebook-button {
+  font-family: inherit;
+  font-size: 18px;
+  background: linear-gradient(to bottom, #0d36b3 0%, #0063ad 100%);
+  color: white;
+  margin-left: 20%;
+  padding: 0.8em 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+  width: 70%;
+  height: 2.5em;
+}
+
+button.facebook-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+button.facebook-button:active {
+  transform: scale(0.95);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button.facebook-button span {
+  display: block;
+  margin-left: 0.4em;
+  transition: all 0.3s;
+}
+
+button.facebook-button svg {
+  width: 18px;
+  height: 18px;
+  fill: white;
+  transition: all 0.3s;
+}
+
+button.facebook-button .svg-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-right: 0.5em;
+  transition: all 0.3s;
+}
+
+button.facebook-button:hover svg {
+  transform: rotate(90deg);
+}
