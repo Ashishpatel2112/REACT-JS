@@ -1,0 +1,40 @@
+
+{
+   "product":[
+    {
+      "id": 1,
+      "title":"designing cloths",
+      "price": 50.00,
+      "image":"01.jpg"
+    },
+    {
+      "id": 2,
+      "title":"designing ",
+      "price": 100.00,
+      "image":"02.jpg"
+    },
+    {
+      "id": 3,
+      "title":"designing clothes",
+      "price": 150.00,
+      "image":"03.jpg"
+    },
+    {
+      "id": 4,
+      "title":"designing clothes",
+      "price": 150.00,
+      "image":"04.jpg"
+    },
+    {
+      "id": 5,
+      "title":"designing clothes",
+      "price": 150.00,
+      "image":"05.jpg"
+    }
+   
+    
+   ]
+
+    
+    
+  }

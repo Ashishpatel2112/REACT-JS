@@ -9,7 +9,7 @@ function FetchingData() {
     useEffect(()=>{
         const dataFetched=async()=>{
             try{
-                let response = await fetch('https://fakestoreapi.com/products')
+                let response = await fetch('``111   https://fakestoreapi.com/products')
                 let jsonData = await response.json()
                 console.log(jsonData);
                 setData(jsonData)

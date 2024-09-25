@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#map{
+    background-image: url(map.jpg);
+}
+#fashion{
+    background-image:url(Fashion_06_banner1.jpg);
+}
+#fashion1{
+    background-image: url(Fashion_06_banner2.jpg);
+}
+#fashion2{
+    background-image: url(Fashion_06_banner3.jpg);
+}
+
